@@ -1,0 +1,20 @@
+<%- include("partials/header"); -%>
+<div class="middle-container">
+  <div class="kutta">
+    <a class="blogg" href="/">Home</a>
+  </div>
+  <h2 class>Weekly Thoughts</h2>
+  <%  posts.reverse().forEach(function(post){ %>
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h2 class="nothing"><%=post.title%></h2>
+      <p class="chosen">
+        <%=post.content%>
+      </p>
+      <hr class="featurette-divider">
+      <% }) %>
+    </div>
+  </div>
+
+
+  <%- include("partials/footer"); -%>
