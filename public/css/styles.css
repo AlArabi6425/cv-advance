@@ -60,7 +60,7 @@ a:hover {
 }
 
 .photo {
-  max-width: 30%;
+  max-width: 25%;
 }
 
 .kutta {
@@ -73,7 +73,7 @@ a:hover {
   position: relative;
   top: -60px;
   text-align: right;
-  font-size: 45px
+  font-size: 30px
 }
 
 .top-container {
@@ -163,7 +163,7 @@ a:hover {
 }
 
 .logo {
-  padding: 1px 2px 1px 300px;
+  padding: 1px 2px 1px 250px;
 }
 
 .nothing {
